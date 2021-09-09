@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: wheat;
+    border-radius: 100px;
+    padding: 10px;
+}
+.button{
+    position: fixed;
+    top: 5%;
+    left: 92%;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
