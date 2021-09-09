@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
 .btn{
     background-color: wheat;
     border-radius: 100px;
@@ -10,12 +13,13 @@
 }
 .button{
     position: fixed;
-    top: 5%;
-    left: 92%;
+    top: 10%;
+    left: 85%;
 }
 .section{
     height: 100vh;
     width: 100%;
+    margin: auto;
 }
 .red{
     background-color: red;
@@ -25,4 +29,20 @@
 }
 .yellow{
     background-color: yellow;
+}
+.image > img{
+    max-width: 600px;
+    transform: translateX(400px);
+}
+.text{
+    line-height: 35px;
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    text-transform:uppercase ;
+    color: yellow;
+}
+.text_green{
+    color: green;
+
 }
